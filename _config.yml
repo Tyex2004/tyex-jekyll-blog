@@ -1,8 +1,20 @@
-# _config.yml
-title: My Jekyll Site
-description: A simple Jekyll site
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+# _config.yml 基本配置示例
+title: 你的博客标题
+email: 你的邮箱地址
+description: 你的博客描述
+baseurl: "" # 如果你的博客不在根目录，请填写相对路径，例如 "/blog"
+url: "https://<your-username>.github.io" # 你的博客网址
+twitter_username: your_twitter_username
+github_username: your_github_username
 
+# 主题设置
+theme: jekyll-theme-minimal
+
+# 插件设置
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 其他设置
 markdown: kramdown
-theme: minima
+permalink: /:year/:month/:day/:title/
