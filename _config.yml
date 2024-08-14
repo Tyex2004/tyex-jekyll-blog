@@ -3,7 +3,7 @@ title: 你的博客标题
 email: 你的邮箱地址
 description: 你的博客描述
 baseurl: "" # 如果你的博客不在根目录，请填写相对路径，例如 "/blog"
-url: "https://<your-username>.github.io" # 你的博客网址
+url: "https://www.tyex.ink" # 你的博客网址
 twitter_username: your_twitter_username
 github_username: your_github_username
 
