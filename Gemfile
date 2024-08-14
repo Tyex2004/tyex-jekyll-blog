@@ -1,11 +1,14 @@
-# Gemfile
+# Gemfile 基本配置示例
 source "https://rubygems.org"
 
-gem "jekyll"
-gem "minima"
+# 指定Jekyll版本
+gem "jekyll", "~> 4.2.0"
 
-# 如果你使用的是 GitHub Pages，可以添加以下内容
+# 指定主题
+gem "jekyll-theme-minimal"
+
+# 其他插件
 group :jekyll_plugins do
-  gem "jekyll-github-metadata"
+  gem "jekyll-feed"
   gem "jekyll-seo-tag"
 end
